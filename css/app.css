@@ -130,13 +130,79 @@
     object-fit: cover;
 }
 
-.owl-nav{
+.history img{
+    width: 90% !important;
+}
+
+#owl-one .owl-nav{
     position: relative;
     bottom: 690px;
 }
 
-.owl-nav .owl-next{
-    position: absolute;
-    right: 10px;
+#owl-one .owl-nav .owl-prev{
     font-weight: bolder;
 }
+
+#owl-one .owl-nav .owl-next{
+    position: absolute;
+    right: 0px;
+    font-weight: bolder;
+}
+
+#owl-one .owl-nav .owl-prev:hover{
+    transform: scale(1.2) translateX(5px);
+    transition: 250ms ease;
+}
+
+#owl-one .owl-nav .owl-next:hover{
+    transform: scale(1.2) translateX(-5px);
+    transition: 250ms ease;
+}
+
+#owl-two .owl-nav{
+    display: block!important;
+    position: relative;
+    bottom: 420px;
+}
+
+#owl-two .owl-nav .owl-prev{
+    font-weight: bolder;
+}
+
+#owl-two .owl-nav .owl-next{
+    position: absolute;
+    right: 0px;
+    font-weight: bolder;
+}
+
+#owl-two .owl-nav .owl-prev:hover{
+    transform: scale(1.2) translateX(5px);
+    transition: 250ms ease;
+}
+
+#owl-two .owl-nav .owl-next:hover{
+    transform: scale(1.2) translateX(-5px);
+    transition: 250ms ease;
+}
+
+.productCard{
+    height: 380px;
+    border: 1px solid black;
+}
+
+.productCard:hover{
+    border: 1px solid #2e2e2e;
+    border-radius: 5px;
+    transform: scale(.97);
+    transition: 350ms ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.productCard p{
+    letter-spacing: -1px;
+}
+
+
+
+
+
