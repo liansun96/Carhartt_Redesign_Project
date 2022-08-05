@@ -158,13 +158,13 @@
 
 .productCard{
     height: 380px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .productCard:hover{
     border: 1px solid #2e2e2e;
     border-radius: 5px;
-    transform: scale(.97);
+    transform: scale(.99);
     transition: 350ms ease;
     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
 }
@@ -181,13 +181,15 @@
 .radioCard{
     width: 300px;
     height: 400px;
-    /*border: 1px solid black;*/
+    overflow: hidden;
 }
 
 .radioCard:hover {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    transform: scale(.95);
+    border: 1px solid #2e2e2e;
+    border-radius: 4px;
+    transform: scale(.97);
     transition: 350ms ease;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
 }
 
 
