@@ -226,7 +226,18 @@
                         <i>"Find your best outfits with <span class="text-secondary">Carhartt</span> , <br>
                             the best <span class="text-secondary">CHOICE</span> ever ."</i>
                     </p>
-                    <button class="btn btn-outline-secondary">See More</button>
+                    <p>
+                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                            Toggle width collapse
+                        </button>
+                    </p>
+                    <div style="min-height: 120px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                            <div class="card card-body" style="width: 300px;">
+                                This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+                            </div>
+                        </div>
+                    </div>
                 </figcaption>
                 <a href="#"></a>
             </figure>
@@ -575,9 +586,58 @@
 </div>
 
 <div class="container">
-    <div class="row">
+    <footer class="py-5 my-5 border-primary border-1 border-top">
+        <div class="row">
+            <div class="col-6 col-lg-3 mb-3">
+                <h5>COMPANY</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">ABOUT</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">STORES</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">STOCKISTS</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">JOBS</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CARHARTT WIP RADIO</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CARHARTT.COM</a></li>
+                </ul>
+            </div>
 
-    </div>
+            <div class="col-6 col-lg-3 mb-3">
+                <h5>CUSTOMER SERVICE</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CONTACT</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">SHIPPING</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">RETURNS & EXCHANGES</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">MY ACCOUNT</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQS</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">SIZE GUIDE</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">ACCESSIBILITY</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-lg-6  mb-3">
+                <form>
+                    <h5 class="mb-5">NEWSLETTER</h5>
+
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="" href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+        </div>
+    </footer>
 </div>
 
 

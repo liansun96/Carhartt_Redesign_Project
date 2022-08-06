@@ -192,5 +192,9 @@
     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
 }
 
+.form-control:focus{
+    outline: none!important;
+}
+
 
 
