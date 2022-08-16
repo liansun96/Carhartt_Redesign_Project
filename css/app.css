@@ -1,7 +1,3 @@
-@font-face {
-
-}
-
 *{
     box-sizing: border-box;
 }
@@ -16,6 +12,11 @@
 
 .spacer-lg{
     height: 60px;
+}
+
+a:hover{
+    color: #2e2e2e!important;
+    text-decoration: underline!important;
 }
 
 /* Lines of the Toggler */
@@ -196,5 +197,48 @@
     outline: none!important;
 }
 
+@media screen and (max-width: 576px) {
 
+    #home{
+        height: 600px;
+    }
+
+    .hero-text{
+        top: 60%!important;
+    }
+
+    .hero-text h1{
+        letter-spacing: -2px;
+    }
+
+    #owl-one .overallCard{
+        width: 370px;
+    }
+
+    #owl-one .owl-nav {
+        position: relative;
+        bottom: 335px;
+    }
+
+    #collaboration h2{
+        font-size: 23px;
+    }
+
+    #history p{
+        text-align: justify;
+    }
+
+    #history h3{
+        letter-spacing: -1px;
+    }
+
+    .radioCard{
+        width: 170px;
+        height: 270px;
+        overflow: hidden;
+        margin-bottom: 1rem ;
+    }
+
+
+}
 
