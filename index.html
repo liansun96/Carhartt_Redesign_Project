@@ -20,11 +20,9 @@
             </div>
         </a>
         <button class="navbar-toggler p-0 o-n" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="menu-icon">
-                <span class="toggler-icon top-bar"></span>
-                <span class="toggler-icon middle-bar"></span>
-                <span class="toggler-icon bottom-bar"></span>
-            </div>
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
         </button>
         <div class="collapse navbar-collapse mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2 ms-auto mb-lg-0">
@@ -215,7 +213,7 @@
 </section>
 
 <section class="container" id="#men">
-    <div class="row justify-content-around align-items-center min-vh-100">
+    <div class="row justify-content-around align-items-center ">
         <div class="col-12 text-center">
             <h2 class="fw-bolder mt-0 mb-4 mt-lg-0 mb-lg-5">Men > Women > Overalls</h2>
         </div>
@@ -578,24 +576,24 @@
 </div>
 
 <div class="container">
-    <footer class="py-5 my-5 border-primary border-1 border-top">
+    <footer class="pt-5 py-lg-5 mt-5 border-primary border-1 border-top">
         <div class="row">
             <div class="col-6 col-lg-3 mb-3">
-                <h5>COMPANY</h5>
+                <h6 class="fw-bolder">COMPANY</h6>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">ABOUT</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">STORES</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">STOCKISTS</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">JOBS</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CARHARTT WIP RADIO</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CONTACT</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">WIP RADIO</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CARHARTT.COM</a></li>
                 </ul>
             </div>
 
             <div class="col-6 col-lg-3 mb-3">
-                <h5>CUSTOMER SERVICE</h5>
+                <h6 class="fw-bolder">CUSTOMER SERVICE</h6>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CONTACT</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">SHIPPING</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">RETURNS & EXCHANGES</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">MY ACCOUNT</a></li>
@@ -608,30 +606,34 @@
 
             <div class="col-lg-6  mb-3">
                 <form>
-                    <h5 class="mb-5">NEWSLETTER</h5>
+                    <h5 class="mb-5 mt-4 mt-lg-0">NEWSLETTER</h5>
 
-                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <div class="d-flex  gap-2 py-1 border-primary border-bottom">
                         <label for="newsletter1" class="visually-hidden">Email address</label>
                         <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                        <button class="btn btn-primary" type="button">Subscribe</button>
+                        <button class="btn btn-outline-primary border-0 fw-bolder" type="button">Subscribe</button>
+                    </div>
+
+                    <div class="form-check form-switch mt-3">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">I confirm that I have read and understand the privacy policy.</label>
                     </div>
                 </form>
+                <div class="d-flex flex-column flex-sm-row justify-content-between mt-5 py-lg-4 my-lg-4 border-top">
+                    <p>&copy;2022 Carhartt WIP Terms & Conditions Privacy Policy.</p>
+                    <ul class="list-unstyled d-flex justify-content-center mt-4 mt-lg-0">
+                        <li class="ms-3">
+                            <a class="" href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="" href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="" href="#"><i class="bi bi-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-                <li class="ms-3">
-                    <a class="" href="#"><i class="bi bi-facebook"></i></a>
-                </li>
-                <li class="ms-3">
-                    <a class="" href="#"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li class="ms-3">
-                    <a class="" href="#"><i class="bi bi-twitter"></i></a>
-                </li>
-            </ul>
         </div>
     </footer>
 </div>
@@ -675,6 +677,9 @@
         nav: true,
         navText: [ "< PREV  " , "  NEXT >" ],
         responsiveClass:true,
+        autoplay:true,
+        autoplayTimeout:1500,
+        // autoplayHoverPause:true,
 
         responsive:{
             0:{
@@ -691,6 +696,13 @@
             }
         }
     });
+
+    // $('.play').on('click',function(){
+    //     owl.trigger('play.owl.autoplay',[1000])
+    // })
+    // $('.stop').on('click',function(){
+    //     owl.trigger('stop.owl.autoplay')
+    // })
 
     // owlOne.on('mousewheel', '.owl-stage', function (e) {
     //     console.log(e)
@@ -711,6 +723,9 @@
         nav: true,
         navText: [ "< PREV  " , "  NEXT >" ],
         responsiveClass:true,
+        autoplay:true,
+        autoplayTimeout:1500,
+        // autoplayHoverPause:true,
 
         responsive:{
             0:{

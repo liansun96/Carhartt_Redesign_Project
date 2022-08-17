@@ -82,6 +82,16 @@ a:hover{
     box-shadow: none!important;
 }
 
+.form-check-input,
+.form-check-input:focus,
+.form-check-input:active,
+.form-check-input:focus
+{
+    /*border: none!important;*/
+    outline: none!important;
+    box-shadow: none!important;
+}
+
 .navbar-nav{
     transform: translateX(25px);
 }
@@ -212,12 +222,12 @@ a:hover{
     }
 
     #owl-one .overallCard{
-        width: 370px;
+        width: 400px;
     }
 
     #owl-one .owl-nav {
         position: relative;
-        bottom: 335px;
+        bottom: 360px;
     }
 
     #collaboration h2{
