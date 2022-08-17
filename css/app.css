@@ -196,7 +196,7 @@ a:hover{
 }
 
 .radioCard:hover {
-    border: 1px solid #2e2e2e;
+    /*border: 1px solid #2e2e2e;*/
     border-radius: 4px;
     transform: scale(.97);
     transition: 350ms ease;
