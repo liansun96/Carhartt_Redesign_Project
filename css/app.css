@@ -203,6 +203,14 @@ a:hover{
     box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
 }
 
+.radioCard .ms-2{
+    transition: 550ms ease;
+}
+
+.radioCard:hover .ms-2{
+    transform: translate(30px, 10px);
+}
+
 .form-control:focus{
     outline: none!important;
 }
